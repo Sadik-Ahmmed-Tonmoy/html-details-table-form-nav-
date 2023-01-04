@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    label{
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+  <title>Form</title>
+</head>
+<body>
+  <h1>FORM FIELD</h1>
+  <form>
+    <label for="Name">Name
+      <input type="text" placeholder="Your Name">
+    </label>
+    <label for="number">
+      Token Number
+    <input type="number" placeholder="Numbers Only">
+    </label>
+    <fieldset>
+    <legend>Movies Name</legend>
+    <label for="Bat-man">
+      <input type="radio" name="movie" id="Bat-man">Bat-man</label>
+    <label for="avengers">
+      <input type="radio" name="movie" id="avengers">Avengers
+    </label>
+    <label for="iron-man">
+      <input type="radio" name="movie" id="iron-man">Iron-man
+    </label>
+  </fieldset>
+  </form>
+  <br>
+  <form>
+    <fieldset>
+      <legend>Snacks</legend>
+      <label for="Chicken-fry"><input type="checkbox" name="snacks" id="Chicken-fry">Chicken fry</label>
+      <label for="Pop-Corn">
+        <input type="checkbox" name="snacks" id="Pop-Corn">Pop-Corn
+      </label>
+      <label for="Coke">
+        <input type="checkbox" name="snacks" id="Coke">Coke
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Special Instruction
+      </legend>
+       <label for="Special Instruction">
+        <textarea name="" id="" cols="30" rows="5" placeholder="Instructions"></textarea>
+       </label>
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
